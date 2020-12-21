@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AccessModifiers.Lib1\AccessModifiers.Lib1.csproj" />
+    <ProjectReference Include="..\AccessModifiers.Lib2\AccessModifiers.Lib2.csproj" />
+  </ItemGroup>
+
+</Project>
