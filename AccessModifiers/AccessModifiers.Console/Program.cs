@@ -1,4 +1,6 @@
 ﻿using System;
+using AccessModifiers.Lib1;
+using AccessModifiers.Lib2;
 
 namespace AccessModifiers.Console
 {
@@ -6,7 +8,11 @@ namespace AccessModifiers.Console
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //DialPhone phone = new DialPhone();
+            //phone.Dial();
+
+            Person p = new Person();
+            p.CallAFriend();
         }
     }
 }
